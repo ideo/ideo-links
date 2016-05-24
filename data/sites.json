@@ -13,12 +13,14 @@
         { "name": "Photobase", "link": "http://photobase.ideo.com/", "internal": true },
         { "name": "IDEO Futures", "link": "http://www.ideofutures.com/", "internal": false },
         { "name": "IDEO U", "link": "http://www.ideou.com/", "internal": false },
-        { "name": "Future State of IDEO 2014", "link": "http://soi2014.ideo.com/", "internal": true }
+        { "name": "Future State of IDEO 2014", "link": "http://soi2014.ideo.com/", "internal": true },
+        { "name": "IDEO Labs", "link": "https://labs.ideo.com/", "internal": false },
+        { "name": "IDEO.org", "link": "https://www.ideo.org/", "internal": false }
     ],
     "services": [
         { "name": "Concur", "link": "https://www.concursolutions.com/signin.asp", "internal": false },
         { "name": "Zendesk", "link": "https://ideo.zendesk.com/hc/en-us", "internal": false },
-        { "name": "Charles Schwab", "link": "https//www.schwabplan.com/Net2/Stateless/Login/Participant.aspx", "internal": false },
+        { "name": "Charles Schwab", "link": "https://www.schwabplan.com/Net2/Stateless/Login/Participant.aspx", "internal": false },
         { "name": "IDEO Github", "link": "https://github.com/orgs/ideo/dashboard", "internal": false },
         { "name": "Zoom", "link": "https://ideo.zoom.us/", "internal": false },
         { "name": "Greenhouse", "link": "https://ideo.greenhouse.io/", "internal": false },
