@@ -1,0 +1,25 @@
+{
+    "sites": [
+        { "name": "IDEO official site", "link": "http://ideo.com/", "internal": false },
+        { "name": "New IDEO.com", "link": "http://new.ideo.com/", "internal": false },
+        { "name": "The Big Book of IDEO", "link": "http://bboi.ideo.com/", "internal": true },
+        { "name": "IDEO Brand guidelines", "link": "http://brandnew.ideo.com/", "internal": true },
+        { "name": "Maestro", "link": "http://maestro.ideo.com", "internal": true },
+        { "name": "Timecard", "link": "http://timecard.ideo.com/", "internal": true },
+        { "name": "Tube", "link": "http://tube.ideo.com/", "internal": true },
+        { "name": "IDEORama", "link": "http://ideorama.ideo.com/", "internal": true }
+    ],
+    "services": [
+        { "name": "Concur", "link": "https://www.concursolutions.com/signin.asp", "internal": false },
+        { "name": "Zendesk", "link": "https://ideo.zendesk.com/hc/en-us", "internal": false },
+        { "name": "Charles Schwab", "link": "https//www.schwabplan.com/Net2/Stateless/Login/Participant.aspx", "internal": false },
+        { "name": "IDEO Github", "link": "https://github.com/orgs/ideo/dashboard", "internal": false },
+        { "name": "Zoom", "link": "https://ideo.zoom.us/", "internal": false },
+        { "name": "Greenhouse", "link": "https://ideo.greenhouse.io/", "internal": false },
+        { "name": "Slack", "link": "https://ideo.slack.com/", "internal": false }
+    ],
+    "chicago": [
+        { "name": "Room booking", "link": "https://ideochicago.roomzilla.net/", "internal": true },
+        { "name": "Future of the Midwest", "link": "https://vimeo.com/album/3243470", "internal": false }
+    ]
+}
