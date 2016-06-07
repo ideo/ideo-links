@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function loadSites() {
     console.log("Loading sites");
-    $.getJSON("../data/sites.json", function(data) {
+    $.getJSON("data/sites.json", function(data) {
         console.log(data);
         var publicSites = [];
         var internalSites = [];
@@ -21,7 +21,7 @@ function loadSites() {
         for (var i = 0; i < data.services.length; i++) {
             var val = data.services[i];
             services.push("<li id='" + val.name + "'>" + '<a href="' + val.link + '" target="_blank"</a>' + val.name + "</li>");
-        } 
+        }
 
         var chicagoSites = [];
         for (var i = 0; i < data.chicago.length; i++) {
@@ -35,6 +35,9 @@ function loadSites() {
         generateList(services, "External services");
         generateList(chicagoSites, "Chicago sites");
 
+        $('a').click(function(e) { 
+            handleOutboundLinkClicks(e);
+            return true; });
     });
 }
 
@@ -46,6 +49,14 @@ function generateList(items, name) {
         "class": "siteList",
         html: items.join("")
     }).appendTo(wrapper).before(nameLabel);
+}
 
-
+function handleOutboundLinkClicks(event) {
+    console.log(event.target.href);
+    ga('send', 'event', {
+        eventCategory: 'Outbound Link',
+        eventAction: 'click',
+        eventLabel: event.target.href
+    });
+    return true;
 }

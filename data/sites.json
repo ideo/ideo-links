@@ -9,7 +9,6 @@
         { "name": "Tube", "link": "http://tube.ideo.com/", "internal": true },
         { "name": "IDEORama", "link": "http://ideorama.ideo.com/", "internal": true },
         { "name": "Little Book of IDEO", "link": "https://www.ideo.com/lboi/", "internal": false },
-        { "name": "IDEO Pipeline", "link": "http://businesssystems.ideo.com/pipeline/", "internal": true },
         { "name": "Photobase", "link": "http://photobase.ideo.com/", "internal": true },
         { "name": "IDEO Futures", "link": "http://www.ideofutures.com/", "internal": false },
         { "name": "IDEO U", "link": "http://www.ideou.com/", "internal": false },
