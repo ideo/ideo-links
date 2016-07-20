@@ -14,7 +14,14 @@
         { "name": "IDEO U", "link": "http://www.ideou.com/", "internal": false },
         { "name": "Future State of IDEO 2014", "link": "http://soi2014.ideo.com/", "internal": true },
         { "name": "IDEO Labs", "link": "https://labs.ideo.com/", "internal": false },
-        { "name": "IDEO.org", "link": "https://www.ideo.org/", "internal": false }
+        { "name": "IDEO.org", "link": "https://www.ideo.org/", "internal": false },
+        { "name": "IDEO Pipeline", "link": "http://businesssystems.ideo.com/pipeline/", "internal": true },
+        { "name": "Food Future coLAB", "link": "http://foodfuturecolab.com/", "internal": false },
+        { "name": "Snapshots 4 2014", "link": "http://ideorama/project-view.php?project=ideo-snapshots-volume-4-2014&view=index&projectId=16956%23page-0#page-0", "internal": true },
+        { "name": "Snapshots 5 2015", "link": "http://ideorama.ideo.com/project-view.php?project=ideo-snapshots-volume-5-2015&view=&projectId=19794#page-0", "internal": true },
+        { "name": "Fortnight Chicago", "link": "http://thefortnight.net/", "internal": false }
+        { "name": "Fortnight Cambridge", "link": "http://fortnightcambridge.ideo.com/", "internal": false }
+        { "name": "OpenIDEO", "link": "https://openideo.com/", "internal": false }
     ],
     "services": [
         { "name": "Okta", "link": "https://ideo.okta.com", "internal": false },
