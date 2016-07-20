@@ -1,7 +1,7 @@
 body {
     background-color: white;
     font-family: 'Josefin Slab', serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a {
@@ -9,8 +9,8 @@ a {
 }
 
 #container {
-    padding-left: 20px;
     padding-top: 20px;
+	margin-left: 20px;
     height: 100%;
     width: 100%;
     display: inline-block;
@@ -41,6 +41,7 @@ ul.siteList {
     width: 25%;
     float: left;
     display: inline-block;
+     margin-right: 0;
 }
 
 @media screen and (max-width: 800px) {
