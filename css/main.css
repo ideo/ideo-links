@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'Josefin Slab', serif;
+    font-size: 16px;
 }
 
 a {
@@ -10,16 +11,46 @@ a {
 #container {
     padding-left: 20px;
     padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+#linksList {
+    height: 100%;
+    width: 100%;
+}
+
+#missingLink {
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 ul.siteList {
-    font-size: 30px;
+    font-size: 2em;
     line-height: 1.2em;
 }
 
 .siteCategory {
-    font-size: 40px;
+    font-size: 2.2em;
     text-decoration: underline;
 }
 
-.listCategoryWrapper {}
+.listCategoryWrapper {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+    .listCategoryWrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .listCategoryWrapper {
+        width: 100%;
+    }
+}
