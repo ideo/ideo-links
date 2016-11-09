@@ -28,12 +28,17 @@ function loadSites() {
             var val = data.chicago[i];
             chicagoSites.push("<li id='" + val.name + "'>" + '<a href="' + val.link + '" target="_blank"</a>' + val.name + "</li>");
         }
-
+        var munichSites = [];
+        for (var i = 0; i < data.munich.length; i++) {
+            var val = data.munich[i];
+            munichSites.push("<li id='" + val.name + "'>" + '<a href="' + val.link + '" target="_blank"</a>' + val.name + "</li>");
+        }
 
         generateList(publicSites, "Public sites");
         generateList(internalSites, "Internal sites");
         generateList(services, "External services");
         generateList(chicagoSites, "Chicago sites");
+        generateList(munichSites, "Munich sites");
 
         $('a').click(function(e) { 
             handleOutboundLinkClicks(e);

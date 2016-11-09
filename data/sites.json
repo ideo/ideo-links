@@ -21,7 +21,10 @@
         { "name": "Snapshots 5 2015", "link": "http://ideorama.ideo.com/project-view.php?project=ideo-snapshots-volume-5-2015&view=&projectId=19794#page-0", "internal": true },
         { "name": "Fortnight Chicago", "link": "http://thefortnight.net/", "internal": false },
         { "name": "Fortnight Cambridge", "link": "http://fortnightcambridge.ideo.com/", "internal": false },
-        { "name": "OpenIDEO", "link": "https://openideo.com/", "internal": false }
+        { "name": "OpenIDEO", "link": "https://openideo.com/", "internal": false },
+        { "name": "IDEO Glossary", "link": "https://docs.google.com/document/d/1oiWMdaxNayaUyxrN17nuszJnUmHMltuD8N0-JriH4aQ/edit?ts=5805e846", "internal": true },
+        { "name": "Inside IDEO", "link": "https://inside.ideo.com/", "internal": true },
+        { "name": "D4V", "link": "http://d4v.jp/", "internal": false }
     ],
     "services": [
         { "name": "Okta", "link": "https://ideo.okta.com", "internal": false },
@@ -36,5 +39,9 @@
     "chicago": [
         { "name": "Room booking", "link": "https://ideochicago.roomzilla.net/", "internal": true },
         { "name": "Future of the Midwest", "link": "https://vimeo.com/album/3243470", "internal": false }
+    ],
+     "munich": [
+        { "name": "Room booking", "link": "http://mu-elephant.ideo.com/GroupView.action", "internal": true },
+        { "name": "Travel time", "link": "https://docs.google.com/a/ideo.com/forms/d/e/1FAIpQLSc1aOtw1me13Y_IS3zztXV0E7hnhoWHDUy2oJD3trmmljQRRQ/viewform?c=0&w=1", "internal": true }
     ]
 }
