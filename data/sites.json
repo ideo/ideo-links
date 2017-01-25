@@ -42,6 +42,7 @@
     ],
      "munich": [
         { "name": "Room booking", "link": "http://mu-elephant.ideo.com/GroupView.action", "internal": true },
-        { "name": "Travel time", "link": "https://docs.google.com/a/ideo.com/forms/d/e/1FAIpQLSc1aOtw1me13Y_IS3zztXV0E7hnhoWHDUy2oJD3trmmljQRRQ/viewform?c=0&w=1", "internal": true }
+        { "name": "Travel time", "link": "https://docs.google.com/a/ideo.com/forms/d/e/1FAIpQLSc1aOtw1me13Y_IS3zztXV0E7hnhoWHDUy2oJD3trmmljQRRQ/viewform?c=0&w=1", "internal": true },
+        { "name": "Finance folder 2017", "link": "https://www.dropbox.com/work/0%20Munich%20Assets%20%26%20Resources/Forms%2C%20finance%20%26%20legal/Finance/Expense%20templates", "internal": true }
     ]
 }
